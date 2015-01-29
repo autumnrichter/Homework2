@@ -1,51 +1,50 @@
+
+.top{
+  background-color: gray;
+  color:black;
+  text-align:left;
+  padding:10px; 
+}
+
+.lines{
+  font-color: black;
+}
+
 .logo{
-  border-style: black; 
-  border-width: 20px;
-  font-size: 20px;
-  padding: 10px;
+  border-style: solid;
+  border-color: white; 
+  border-width: 2px;
+  padding: 3px;
   font-family: Verdana;
+  font-size: 20px;
 }
 
-.outside{
-height: 200px;
-border: 100;
-width: 50%;
-  margin 0px auto;
-}
-
-.inside{
-  height:100px;
-  border: solid 1px;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin top: 10px;
-  text-align: center;
-}
 .block{
   margin: 10px;
   border: solid 1px red;
   padding:15px;
 }
 
-.top{
-  background-color:;
-  color:black;
-  text-align:left;
-  padding:5px; 
+.class{
+  color: none;
 }
-.mid{
-  background-color:darkgrey;
+
+.middle{
+  background-color:whitesmoke;
   color:black;
   text-align:left;
   padding:5px;
+  margin: inherit;
+
 }
 .footer{
-  background-color:;
   color:black;
-  text-align:left;
-  padding:5px;
+  text-align:center;
+  padding:20px;
   height:300px;
+  border-top: black;
+  font-family: verdana;
+  font-size: 10pt;
 }
 
 body {
@@ -59,14 +58,23 @@ a {
 
 .Puppy{
   font-size: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-top: 0px;
+  color: slategrey;
   text-align: 
-
 }
 .Akita{
-  border: 1px;
-  margin: auto;
-  padding:10px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  border: 4px;
+  margin-top: 2px;
+  padding:4px;
   width: 50x;
   display: block;
+}
+
+.more{
+  text-indent: 45px;
+  font-size: 10pt;
+}
 
